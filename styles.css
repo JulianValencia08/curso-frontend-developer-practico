@@ -281,7 +281,7 @@ nav {
     padding-bottom: 24px;
     position: absolute;
     right: 0;
-    
+    background: var(--white);
 }
 .product-detail-close {
     background: var(--white);
@@ -335,7 +335,7 @@ nav {
     font-weight: bold;
     height: 50px;
 }
-#product-detail s.add-to-cart-button {
+#product-detail .add-to-cart-button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -366,6 +366,9 @@ nav {
     .product-card img {
         width: 140px;
         height: 140px;
+    }
+    #product-detail {
+        width: 100%;
     }
 }
 @media (min-width: 641px){
